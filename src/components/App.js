@@ -6,8 +6,8 @@ const App = () => {
     <div className="ns-wrapper">
         <h1 data-ns-test={'project-name'} >Police App</h1>
         <h6 data-ns-test={'project-description'} >To help police catch real culprit</h6>
-        <h6>To help police catch real culprit</h6>
-        <h6>To help police catch real culprit</h6>
+        <h6 data-ns-test={'project-description'}>To help police catch real culprit</h6>
+        <h6 data-ns-test={'project-description'}>To help police catch real culprit</h6>
     </div>
   )
 }
